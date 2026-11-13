@@ -102,7 +102,8 @@
     $("#dgBody").innerHTML = `<div class="dg-lead rv">${pic(g, "leadership")}<div><div class="role">${esc(g.role)}</div><h3>${esc(g.name)}</h3><div class="club">${esc(g.club)}${g.term ? " &middot; " + esc(g.term) : ""}</div>${g.bio ? `<p>${esc(g.bio)}</p>` : ""}${g.contact ? `<p><a class="meta" href="${esc(g.contact)}"><b>Contact</b></a></p>` : ""}</div></div>
       <h3 class="sub">Cabinet officers</h3>${grid(L.dg.team, true, "", "mid")}`;
     const s = L.standing;
-    $("#standingBody").innerHTML = `${grid([s.chair, s.cochair], true, "", "mid pair")}<h3 class="sub" style="margin-top:56px">Committee members</h3>${grid(s.members, false, "sm")}`;
+       const row = (arr, t) => `<div class="lrow">${arr.map((p, i) => person(p, i, t < 4, "t" + t)).join("")}</div>`;
+    $("#standingBody").innerHTML = `<div class="ladder">${row([s.adviser], 1)}${row([s.chair], 2)}${row([s.cochair, s.secretary], 3)}${row(s.members, 4)}</div>`;
     $("#leoBody").innerHTML = `${grid(L.leo.officers, true, "", "mid")}<h3 class="sub" style="margin-top:56px">Functional teams</h3>` +
       L.leo.teams.map(t => `<div class="team"><h3 style="font-size:1.35rem;margin-bottom:18px">${esc(t.name)}</h3>${grid(t.members, false, "sm")}</div>`).join("");
     $("#presidents").innerHTML = L.presidents.map(p => `<li><a><b>${esc(p.year)}</b><span>${esc(p.name)}${p.club ? ` <em>(${esc(p.club)})</em>` : ""}</span></a></li>`).join("");
