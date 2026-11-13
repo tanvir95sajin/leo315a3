@@ -85,4 +85,4 @@ window.LEO = {
     { id: "convention", title: "District Convention", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" } ] },
     { id: "training", title: "Leadership Training", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" }, { src: "", cap: "Caption 4" } ] }
   ]
-};
+}
