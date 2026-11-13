@@ -53,7 +53,7 @@ window.LEO = {
         { name: "Ln. Md. Joynal Abedin Khan", role: "Cabinet Treasurer", club: "Lions Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
       ]
     },
-   standing: {
+    standing: {
       adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
       chair:     { name: "Ln. Mizanur Rahman Khan Lytton", role: "Chairperson, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
       cochair:   { name: "Ln. Shuja Shajahan", role: "Co-Chairperson, Leo Standing Committee", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
@@ -71,13 +71,21 @@ window.LEO = {
         { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
         { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
       ],
-
+      teams: [
+        { name: "Membership and New Club Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" }, { name: "Full Name", role: "Member", club: "Leo Club of Sample", photo: "" } ] },
+        { name: "Service and Project Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" } ] },
+        { name: "Marketing and Communications", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" } ] }
+      ]
+    },
     presidents: [   // newest first; club optional
       { year: "2025-26", name: "Leo SK Bishal", club: "Leo Club of Sample Dhaka" }, { year: "2024-25", name: "Leo Tuhin Rahman", club: "" },
       { year: "2023-24", name: "Leo Saif Iqbal", club: "" }, { year: "2022-23", name: "Leo Kazi Lamia Karim", club: "" },
       { year: "2021-22", name: "Leo Ferdous Kaysan and Leo M. A. Hannan", club: "" }, { year: "2020-21", name: "Leo Abu Hasan Md. Faysal", club: "" }
     ],
-
+    pastTeams: [   // link = a PDF or page, or leave ""
+      { year: "2025-26", title: "Leadership team 2025-26", link: "" }
+    ]
+  },
 
   /* Gallery: one entry per album. src = file in assets/img/gallery/ (leave "" for a placeholder). */
   gallery: [
@@ -85,4 +93,4 @@ window.LEO = {
     { id: "convention", title: "District Convention", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" } ] },
     { id: "training", title: "Leadership Training", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" }, { src: "", cap: "Caption 4" } ] }
   ]
-}
+};
