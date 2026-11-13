@@ -1,7 +1,7 @@
 /* ===== EDIT THIS FILE to update the whole website. Save, commit, and Vercel republishes in about 30 seconds.
    Everything here is SAMPLE content: replace it with verified district records. See HOW-TO-EDIT.md. ===== */
 window.LEO = {
-  site: { email: "info@example.org", facebook: "#", instagram: "#",
+  site: { email: "leodistrict315a3bd@gmail.com", facebook: "#", instagram: "#",
           formEndpoint: "" },            // paste your Formspree link here (see guide). Empty = form opens the visitor's email app.
   logos: { leo: "assets/img/logos/leo.svg", lions: "assets/img/logos/lions.svg",
            dg: "assets/img/logos/dg.svg", president: "assets/img/logos/president.svg" },
@@ -13,9 +13,9 @@ window.LEO = {
   ],
 
   messages: [   // photo = file in assets/img/messages/ ; each text line = one paragraph
-    { name: "Full Name", role: "District Governor, Lions District 315 A3", photo: "", logo: "dg",
+    { name: "Ln. Dr. Asadullah Ahamed, PMJF", role: "District Governor, Lions District 315 A3", photo: "assets/img/leadership/asad.jpg", logo: "dg",
       text: ["First paragraph of the District Governor's message. Always visible.", "Second paragraph. Shown after clicking Read the full message.", "Closing paragraph."] },
-    { name: "Full Name", role: "District President, Leo District 315 A3", photo: "", logo: "president",
+    { name: "Leo Jahidul Islam", role: "District President, Leo District 315 A3", photo: "assets/img/leadership/jahid.jpg", logo: "president",
       text: ["First paragraph of the Leo District President's message. Always visible.", "Second paragraph.", "Closing paragraph."] }
   ],
 
@@ -45,47 +45,39 @@ window.LEO = {
   leadership: {
     term: "2026-27",
     dg: {
-      lead: { name: "Full Name", role: "District Governor", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "Two or three lines about the District Governor.", contact: "", photo: "" },
+      lead: { name: "Ln. Dr. Asadullah Ahamed, PMJF", role: "District Governor", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "Two or three lines about the District Governor.", contact: "", photo: "" },
       team: [
-        { name: "Full Name", role: "First Vice District Governor", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Full Name", role: "Second Vice District Governor", club: "Lions Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Full Name", role: "Cabinet Secretary", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Full Name", role: "Cabinet Treasurer", club: "Lions Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
+        { name: "Ln. Syed Nasim Ahmed, MJF", role: "First Vice District Governor", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
+        { name: "Ln. Md. Refatullah", role: "Second Vice District Governor", club: "Lions Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
+        { name: "Ln. Md. Engr. Imran Shakib Azmeer", role: "Cabinet Secretary", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
+        { name: "Ln. Md. Joynal Abedin Khan", role: "Cabinet Treasurer", club: "Lions Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
       ]
     },
-    standing: {
-      chair:   { name: "Full Name", role: "Chairperson, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
-      cochair: { name: "Full Name", role: "Co-Chairperson, Leo Standing Committee", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
+   standing: {
+      adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
+      chair:     { name: "Ln. Mizanur Rahman Khan Lytton", role: "Chairperson, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
+      cochair:   { name: "Ln. Shuja Shajahan", role: "Co-Chairperson, Leo Standing Committee", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
+      secretary: { name: "Ln. Sultana Parvin", role: "Member Secretary, Leo Standing Committee", club: "Lions Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
       members: [
-        { name: "Full Name", role: "Member", club: "Lions Club of Sample", photo: "" },
-        { name: "Full Name", role: "Member", club: "Lions Club of Sample", photo: "" },
-        { name: "Full Name", role: "Member", club: "Lions Club of Sample", photo: "" },
-        { name: "Full Name", role: "Member", club: "Lions Club of Sample", photo: "" }
+        { name: "Ln. Md. Shahriar Mehedi Mollah", role: "Member", club: "Lions Club of Sample", photo: "" },
+        { name: "Ln. Md. Yousuf Ali", role: "Member", club: "Lions Club of Sample", photo: "" },
+        { name: "Ln. Engr. Sujit Kumar Dey", role: "Member", club: "Lions Club of Sample", photo: "" }
       ]
     },
     leo: {
       officers: [
-        { name: "Full Name", role: "District President", club: "Leo Club of Sample Dhaka", term: "2026-27", bio: "Two lines about this person.", contact: "", photo: "" },
-        { name: "Full Name", role: "Vice President", club: "Leo Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Full Name", role: "Cabinet Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Full Name", role: "Cabinet Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
+        { name: "Leo Jahidul Islam", role: "District President", club: "Leo Club of Dhaka Dhanmondi", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/jahid.jpg" },
+        { name: "Leo Mahfuj Ullah", role: "Vice District President", club: "Leo Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
+        { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
+        { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
       ],
-      teams: [
-        { name: "Membership and New Club Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" }, { name: "Full Name", role: "Member", club: "Leo Club of Sample", photo: "" } ] },
-        { name: "Service and Project Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" } ] },
-        { name: "Marketing and Communications", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" } ] }
-        /* add more: Leadership Development, Technology and Digital Innovation, International Relations, Finance and Administration */
-      ]
-    },
+
     presidents: [   // newest first; club optional
-      { year: "2025-26", name: "Full Name", club: "Leo Club of Sample Dhaka" }, { year: "2024-25", name: "Full Name", club: "" },
-      { year: "2023-24", name: "Full Name", club: "" }, { year: "2022-23", name: "Full Name", club: "" },
-      { year: "2021-22", name: "Full Name", club: "" }, { year: "2020-21", name: "Full Name", club: "" }, { year: "2019-20", name: "Full Name", club: "" }
+      { year: "2025-26", name: "Leo SK Bishal", club: "Leo Club of Sample Dhaka" }, { year: "2024-25", name: "Leo Tuhin Rahman", club: "" },
+      { year: "2023-24", name: "Leo Saif Iqbal", club: "" }, { year: "2022-23", name: "Leo Kazi Lamia Karim", club: "" },
+      { year: "2021-22", name: "Leo Ferdous Kaysan and Leo M. A. Hannan", club: "" }, { year: "2020-21", name: "Leo Abu Hasan Md. Faysal", club: "" }
     ],
-    pastTeams: [   // link = a PDF or page, or leave ""
-      { year: "2025-26", title: "Leadership team 2025-26", link: "" }, { year: "2024-25", title: "Leadership team 2024-25", link: "" }
-    ]
-  },
+
 
   /* Gallery: one entry per album. src = file in assets/img/gallery/ (leave "" for a placeholder). */
   gallery: [
