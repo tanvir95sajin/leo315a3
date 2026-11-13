@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join Leo | Leo District 315 A3</title>
+<meta name="description" content="Join a Leo club, volunteer, start a club or partner with Leo District 315 A3.">
+<meta property="og:title" content="Join Leo | Leo District 315 A3">
+<meta property="og:description" content="Join a Leo club, volunteer, start a club or partner with Leo District 315 A3.">
+<meta property="og:image" content="https://leo315a3.vercel.app/assets/img/hero.jpg">
+<link rel="icon" href="assets/img/logos/leo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="join">
+<main>
+<section class="page-head"><canvas class="fx"></canvas><div class="wrap">
+  <h1>Join Leo</h1>
+  <p class="lede">Serve your community, build leadership skills, and meet people who want to make a difference.</p>
+</div></section>
+<section class="sec"><div class="wrap join-grid">
+  <div>
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li class="rv"><b>1</b><div><h3>Find a club</h3><p>Browse the club directory by name, area or institution.</p></div></li>
+      <li class="rv"><b>2</b><div><h3>Tell us you are interested</h3><p>Send the form. We pass it to the right club.</p></div></li>
+      <li class="rv"><b>3</b><div><h3>Meet the club</h3><p>The club contacts you about its next meeting or activity.</p></div></li>
+      <li class="rv"><b>4</b><div><h3>Start serving</h3><p>Join projects, training and district events. Membership follows the applicable Lions and Leo requirements.</p></div></li>
+    </ol>
+    <a class="btn gold dark" href="index.html#clubs">Browse clubs</a>
+  </div>
+  <form id="jf" class="form rv">
+    <h3>Get in touch</h3>
+    <label>I am interested in
+      <select name="type"><option>Joining a Leo club</option><option>Volunteering for a service activity</option><option>Starting a new Leo club</option><option>Partnering with the district</option></select></label>
+    <label>Full name<input name="name" required></label>
+    <label>Email<input name="email" type="email" required></label>
+    <label>Phone (optional)<input name="phone"></label>
+    <label>Institution and area<input name="place"></label>
+    <label>Message<textarea name="message" rows="4"></textarea></label>
+    <label class="chk"><input type="checkbox" required> I agree that my details are used only to answer this enquiry and are shared only with the relevant district or club officers.</label>
+    <button class="btn gold dark" type="submit">Send</button>
+    <p id="fmsg" class="fmsg" role="status"></p>
+  </form>
+</div></section>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
