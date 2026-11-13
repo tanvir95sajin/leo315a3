@@ -37,7 +37,7 @@
   addEventListener("scroll", onScroll, { passive: true }); onScroll();
 
   /* ---------- shared: templates ---------- */
-  const pic = (p, dir) => `<div class="pic"><span>${esc(ini(p.name))}</span>${p.photo ? `<img src="assets/img/${dir}/${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy" onerror="this.remove()">` : ""}</div>`;
+  const pic = (p, dir) => `<div class="pic"><span>${esc(ini(p.name))}</span>${p.photo ? `<img src="${p.photo.includes("/") ? "" : "assets/img/" + dir + "/"}${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy" onerror="this.remove()">` : ""}</div>`;
   const person = (p, i, full, cls) => `<article class="person rv tilt-me ${cls || ""}" style="--i:${i}">${pic(p, "leadership")}
     <h3>${esc(p.name)}</h3><div class="role">${esc(p.role)}</div><div class="club">${esc(p.club || "")}</div>
     ${full ? `${p.bio ? `<p>${esc(p.bio)}</p>` : ""}<div class="meta">${p.term ? "Term: " + esc(p.term) : ""}${p.contact ? ` &middot; <a href="${esc(p.contact)}">Contact</a>` : ""}</div>` : ""}</article>`;
@@ -102,7 +102,7 @@
     $("#dgBody").innerHTML = `<div class="dg-lead rv">${pic(g, "leadership")}<div><div class="role">${esc(g.role)}</div><h3>${esc(g.name)}</h3><div class="club">${esc(g.club)}${g.term ? " &middot; " + esc(g.term) : ""}</div>${g.bio ? `<p>${esc(g.bio)}</p>` : ""}${g.contact ? `<p><a class="meta" href="${esc(g.contact)}"><b>Contact</b></a></p>` : ""}</div></div>
       <h3 class="sub">Cabinet officers</h3>${grid(L.dg.team, true, "", "mid")}`;
     const s = L.standing;
-       const row = (arr, t) => `<div class="lrow">${arr.map((p, i) => person(p, i, t < 4, "t" + t)).join("")}</div>`;
+    const row = (arr, t) => `<div class="lrow">${arr.map((p, i) => person(p, i, t < 4, "t" + t)).join("")}</div>`;
     $("#standingBody").innerHTML = `<div class="ladder">${row([s.adviser], 1)}${row([s.chair], 2)}${row([s.cochair, s.secretary], 3)}${row(s.members, 4)}</div>`;
     $("#leoBody").innerHTML = `${grid(L.leo.officers, true, "", "mid")}<h3 class="sub" style="margin-top:56px">Functional teams</h3>` +
       L.leo.teams.map(t => `<div class="team"><h3 style="font-size:1.35rem;margin-bottom:18px">${esc(t.name)}</h3>${grid(t.members, false, "sm")}</div>`).join("");
