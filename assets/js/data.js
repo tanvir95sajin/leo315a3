@@ -8,8 +8,8 @@ window.LEO = {
 
   statsVerified: false,                  // set to true once the numbers below come from district records
   stats: [
-    { label: "Leo clubs", value: 40 }, { label: "Leo members", value: 1200 }, { label: "Service projects", value: 85 },
-    { label: "Beneficiaries", value: 15000 }, { label: "Volunteer hours", value: 9000 }
+    { label: "Leo clubs", value: 15 }, { label: "Leo members", value: 150 }, { label: "Service projects", value: 20 },
+    { label: "Beneficiaries", value: 2000 }, { label: "Volunteer hours", value: 9000 }
   ],
 
   messages: [   // photo = file in assets/img/messages/ ; each text line = one paragraph
@@ -30,10 +30,10 @@ window.LEO = {
     { date: "2027-01-23", title: "Winter Service Campaign (sample)", place: "Savar", link: "#" }
   ],
   clubs: [   // status: Active / Newly established / Recruiting members / Awaiting annual information update
-    { name: "Leo Club of Sample Dhaka University", place: "Dhaka", institution: "University of Dhaka", status: "Active" },
-    { name: "Leo Club of Sample Savar", place: "Savar", institution: "Community-based", status: "Recruiting members" },
-    { name: "Leo Club of Sample Gazipur", place: "Gazipur", institution: "Sample College", status: "Newly established" },
-    { name: "Leo Club of Sample Narayanganj", place: "Narayanganj", institution: "Community-based", status: "Active" }
+    { name: "Leo Club of Dhaka Dhanmondi", place: "Dhaka", institution: "University of Dhaka", status: "Active" },
+    { name: "Leo Club of Dhaka Prime", place: "Dhaka", institution: "Community-based", status: "Recruiting members" },
+    { name: "Leo Club of Manikganj", place: "Manikganj", institution: "Sample College", status: "Newly established" },
+    { name: "Leo Club of Bijoy Nation", place: "Narayanganj", institution: "Community-based", status: "Active" }
   ],
   news: [
     { date: "2026-10-20", title: "Sample: New solar school project announced", text: "Replace this with a real announcement." },
@@ -68,8 +68,8 @@ window.LEO = {
       officers: [
         { name: "Leo Jahidul Islam", role: "District President", club: "Leo Club of Dhaka Dhanmondi", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/jahid.jpg" },
         { name: "Leo Mahfuj Ullah", role: "Vice District President", club: "Leo Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0042.jpg" },
-        { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0024.jpg" },
-        { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0023.jpg" }
+        { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0023.jpg" },
+        { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0024.jpg" }
       ]
     },
     presidents: [   // newest first; club optional
