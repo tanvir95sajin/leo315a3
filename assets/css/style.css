@@ -255,15 +255,13 @@ footer a:hover{color:var(--gold2)}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition:none!important}.rv,.ln i{opacity:1;transform:none}.fx{display:none}}
 
-/* Leo Standing Committee: stepped sizes */
+/* Leo Standing Committee: near-equal sizes */
 .ladder{display:grid;gap:44px}
-.lrow{display:flex;justify-content:center;flex-wrap:wrap;gap:36px 56px}
+.lrow{display:flex;justify-content:center;flex-wrap:wrap;gap:36px 48px}
 .ladder .person{text-align:center}
 .ladder .person .pic{margin:0 auto}
-.t1 .pic{width:min(300px,72vw)}.t1 h3{font-size:1.9rem}
-.t2 .pic{width:min(240px,64vw)}.t2 h3{font-size:1.5rem}
-.t3 .pic{width:min(190px,40vw)}.t3 h3{font-size:1.25rem}
-.t4 .pic{width:min(130px,26vw);border-radius:18px}.t4 h3{font-size:1.05rem}
-.t1{max-width:340px}.t2{max-width:280px}.t3{max-width:230px}.t4{max-width:170px}
-.t1 .pic{box-shadow:0 0 0 8px rgba(214,169,58,.18),0 24px 50px rgba(5,46,37,.25)}
+.t1 .pic,.t2 .pic,.t3 .pic,.t4 .pic{width:min(190px,42vw);border-radius:999px 999px 12px 12px}
+.t1 .pic{width:min(210px,44vw)}
+.t1,.t2,.t3,.t4{max-width:230px}
+.t1 h3,.t2 h3,.t3 h3,.t4 h3{font-size:1.2rem}
 @media(max-width:860px){.lrow{gap:28px 20px}.ladder{gap:36px}}
