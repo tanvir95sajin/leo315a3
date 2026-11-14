@@ -55,7 +55,7 @@ window.LEO = {
     },
     standing: {
       adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0022.jpg" },
-      chair:     { name: "Ln. Sultana Parvin", role: "Member Secretary, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261112-WA0002.jpg" },
+      chair:     { name: "Ln. Sultana Parvin", role: "Chairperson, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261112-WA0002.jpg" },
       cochair:   { name: "Ln. Shuja Shajahan", role: "Co-Chairperson, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0028.jpg" },
       members: [
         { name: "Ln. Md. Shahriar Mehedi Mollah", role: "Member", club: "", photo: "" },
