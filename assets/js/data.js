@@ -3,8 +3,8 @@
 window.LEO = {
   site: { email: "leodistrict315a3bd@gmail.com", facebook: "#", instagram: "#",
           formEndpoint: "" },            // paste your Formspree link here (see guide). Empty = form opens the visitor's email app.
-  logos: { leo: "assets/img/logos/leo.svg", lions: "assets/img/logos/lions.svg",
-           dg: "assets/img/logos/dg.svg", president: "assets/img/logos/president.svg" },
+  logos: { leo: "assets/img/logos/leologo.jpg", lions: "assets/img/logos/lionslogo.png",
+           dg: "assets/img/logos/dgseal.jpeg", president: "assets/img/logos/dpseal.jpeg" },
 
   statsVerified: false,                  // set to true once the numbers below come from district records
   stats: [
