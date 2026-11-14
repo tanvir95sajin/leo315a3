@@ -73,7 +73,7 @@ window.LEO = {
       ]
     },
     presidents: [   // newest first; club optional
-      { year: "2025-26", name: "Leo SK Bishal", club: "Leo Club of Sample Dhaka" }, { year: "2024-25", name: "Leo Tuhin Rahman", club: "" },
+      { year: "2025-26", name: "Leo SK Bishal", club: "" }, { year: "2024-25", name: "Leo Tuhin Rahman", club: "" },
       { year: "2023-24", name: "Leo Saif Iqbal", club: "" }, { year: "2022-23", name: "Leo Kazi Lamia Karim", club: "" },
       { year: "2021-22", name: "Leo Ferdous Kaysan and Leo M. A. Hannan", club: "" }, { year: "2020-21", name: "Leo Abu Hasan Md. Faysal", club: "" }
     ],
