@@ -45,7 +45,7 @@ window.LEO = {
   leadership: {
     term: "2026-27",
     dg: {
-      lead: { name: "Ln. Dr. Asadullah Ahamed, PMJF", role: "District Governor", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "Two or three lines about the District Governor.", contact: "", photo: "" },
+      lead: { name: "Ln. Dr. Asadullah Ahamed, PMJF", role: "District Governor", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/asad.jpg" },
       team: [
         { name: "Ln. Syed Nasim Ahmed, MJF", role: "First Vice District Governor", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
         { name: "Ln. Md. Refatullah", role: "Second Vice District Governor", club: "Lions Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
@@ -67,9 +67,9 @@ window.LEO = {
     leo: {
       officers: [
         { name: "Leo Jahidul Islam", role: "District President", club: "Leo Club of Dhaka Dhanmondi", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/jahid.jpg" },
-        { name: "Leo Mahfuj Ullah", role: "Vice District President", club: "Leo Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
-        { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "" }
+        { name: "Leo Mahfuj Ullah", role: "Vice District President", club: "Leo Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0042.jpg" },
+        { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0024.jpg" },
+        { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0023.jpg" }
       ],
       teams: [
         { name: "Membership and New Club Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" }, { name: "Full Name", role: "Member", club: "Leo Club of Sample", photo: "" } ] },
