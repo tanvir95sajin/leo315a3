@@ -54,10 +54,10 @@ window.LEO = {
       ]
     },
     standing: {
-      adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
+      adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0022.jpg" },
       chair:     { name: "Ln. Mizanur Rahman Khan Lytton", role: "Chairperson, Leo Standing Committee", club: "Lions Club of Sample Dhaka", term: "2026-27", bio: "", contact: "", photo: "" },
-      cochair:   { name: "Ln. Shuja Shajahan", role: "Co-Chairperson, Leo Standing Committee", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "" },
-      secretary: { name: "Ln. Sultana Parvin", role: "Member Secretary, Leo Standing Committee", club: "Lions Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "" },
+      cochair:   { name: "Ln. Shuja Shajahan", role: "Co-Chairperson, Leo Standing Committee", club: "Lions Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0028.jpg" },
+      secretary: { name: "Ln. Sultana Parvin", role: "Member Secretary, Leo Standing Committee", club: "Lions Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0002.jpg" },
       members: [
         { name: "Ln. Md. Shahriar Mehedi Mollah", role: "Member", club: "Lions Club of Sample", photo: "" },
         { name: "Ln. Md. Yousuf Ali", role: "Member", club: "Lions Club of Sample", photo: "" },
@@ -70,11 +70,6 @@ window.LEO = {
         { name: "Leo Mahfuj Ullah", role: "Vice District President", club: "Leo Club of Sample Savar", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0042.jpg" },
         { name: "Leo Md. Mehedi Hasan", role: "District Secretary", club: "Leo Club of Sample Gazipur", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0024.jpg" },
         { name: "Leo Mohammad Johirul Islam", role: "District Treasurer", club: "Leo Club of Sample Narayanganj", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0023.jpg" }
-      ],
-      teams: [
-        { name: "Membership and New Club Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" }, { name: "Full Name", role: "Member", club: "Leo Club of Sample", photo: "" } ] },
-        { name: "Service and Project Development", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" } ] },
-        { name: "Marketing and Communications", members: [ { name: "Full Name", role: "Team Lead", club: "Leo Club of Sample", photo: "" } ] }
       ]
     },
     presidents: [   // newest first; club optional
