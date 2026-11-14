@@ -53,6 +53,10 @@ window.LEO = {
         { name: "Ln. Md. Joynal Abedin Khan", role: "Cabinet Treasurer", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Joynal.jpg" }
       ]
     },
+
+         intl: [   // international Lions personalities, shown after the DG team. Copy a line to add more people.
+      { name: "Ln. Anwar Parvas", role: "GET Coordinator", club: "", term: "", bio: "", contact: "", photo: "assets/img/leadership/anwar.jpg" }
+    ],
     standing: {
       adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0022.jpg" },
       chair:     { name: "Ln. Sultana Parvin", role: "Chairperson, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261112-WA0002.jpg" },
