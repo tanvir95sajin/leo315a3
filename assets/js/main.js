@@ -99,13 +99,14 @@
     $("#termLine").textContent = `Leo year ${L.term}. Meet the Lions and Leo leaders guiding the district.`;
     $("#dgLogo").innerHTML = logo("dg"); $("#leoLogo").innerHTML = logo("leo");
     const g = (L.dg || {}).lead, dgTeam = (L.dg || {}).team || [];
-    $("#dgBody").innerHTML = (g ? `<div class="dg-lead rv">${pic(g, "leadership")}<div><div class="role">${esc(g.role)}</div><h3>${esc(g.name)}</h3><div class="club">${esc(g.club)}${g.term ? " &middot; " + esc(g.term) : ""}</div>${g.bio ? `<p>${esc(g.bio)}</p>` : ""}${g.contact ? `<p><a class="meta" href="${esc(g.contact)}"><b>Contact</b></a></p>` : ""}</div></div>` : "")
-      + (dgTeam.length ? `<h3 class="sub">Cabinet officers</h3>${grid(dgTeam, true, "", "mid")}` : "");
+    const drow = (arr, c, full) => arr.length ? `<div class="dgr">${arr.map((p, i) => person(p, i, full, c)).join("")}</div>` : "";
+    $("#dgBody").innerHTML = `<div class="dgl">${drow(g ? [g] : [], "d1", true)}${drow(dgTeam.slice(0, 2), "d2", false)}${drow(dgTeam.slice(2), "d3", false)}</div>`;
     const s = L.standing || {};
     const row = (arr, t) => { arr = arr.filter(Boolean); return arr.length ? `<div class="lrow">${arr.map((p, i) => person(p, i, t < 4, "t" + t)).join("")}</div>` : ""; };
     $("#standingBody").innerHTML = `<div class="ladder">${row([s.adviser], 1)}${row([s.chair], 2)}${row([s.cochair, s.secretary], 3)}${row(s.members || [], 4)}</div>`;
     const leo = L.leo || {}, officers = leo.officers || [], teams = leo.teams || [];
-    $("#leoBody").innerHTML = (officers.length ? grid(officers, true, "", "mid") : "")
+    const lrow = (arr, c) => arr.length ? `<div class="lor">${arr.map((p, i) => person(p, i, true, c)).join("")}</div>` : "";
+    $("#leoBody").innerHTML = (officers.length ? `<div class="lol">${lrow(officers.slice(0, 1), "l1")}${lrow(officers.slice(1), "l2")}</div>` : "")
       + (teams.length ? `<h3 class="sub" style="margin-top:56px">Functional teams</h3>` + teams.map(t => `<div class="team"><h3 style="font-size:1.35rem;margin-bottom:18px">${esc(t.name)}</h3>${grid(t.members || [], false, "sm")}</div>`).join("") : "");
     $("#presidents").innerHTML = (L.presidents || []).map(p => `<li><a><b>${esc(p.year)}</b><span>${esc(p.name)}${p.club ? ` <em>(${esc(p.club)})</em>` : ""}</span></a></li>`).join("");
     $("#pastTeams").innerHTML = (L.pastTeams || []).map(p => `<li><a ${p.link ? `href="${esc(p.link)}"` : ""}><b>${esc(p.year)}</b><span>${esc(p.title)}</span></a></li>`).join("");
