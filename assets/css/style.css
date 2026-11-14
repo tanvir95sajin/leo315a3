@@ -265,3 +265,15 @@ footer a:hover{color:var(--gold2)}
 .t1,.t2,.t3,.t4{max-width:230px}
 .t1 h3,.t2 h3,.t3 h3,.t4 h3{font-size:1.2rem}
 @media(max-width:860px){.lrow{gap:28px 20px}.ladder{gap:36px}}
+
+/* DG team: centred rows */
+.dgl{display:grid;gap:44px}
+.dgr{display:flex;justify-content:center;flex-wrap:wrap;gap:36px 56px}
+.dgl .person{text-align:center}
+.dgl .person .pic{margin:0 auto}
+.d1 .pic{width:min(300px,72vw);box-shadow:0 0 0 8px rgba(214,169,58,.18),0 24px 50px rgba(5,46,37,.25)}
+.d2 .pic{width:min(220px,48vw)}
+.d3 .pic{width:min(190px,42vw)}
+.d1{max-width:340px}.d2{max-width:260px}.d3{max-width:230px}
+.d1 h3{font-size:1.9rem}.d2 h3{font-size:1.4rem}.d3 h3{font-size:1.2rem}
+@media(max-width:860px){.dgr{gap:28px 20px}.dgl{gap:36px}}
