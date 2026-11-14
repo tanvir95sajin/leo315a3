@@ -49,7 +49,7 @@ window.LEO = {
       team: [
         { name: "Ln. Syed Nasim Ahmed, MJF", role: "First Vice District Governor", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Nasim.jpg" },
         { name: "Ln. Md. Refatullah", role: "Second Vice District Governor", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Refat.jpg" },
-        { name: "Ln. Md. Engr. Imran Shakib Azmeer", role: "Cabinet Secretary", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Azmeer.jpg" },
+        { name: "Ln. Engr. Md. Imran Shakib Azmeer", role: "Cabinet Secretary", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Azmeer.jpg" },
         { name: "Ln. Md. Joynal Abedin Khan", role: "Cabinet Treasurer", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Joynal.jpg" }
       ]
     },
@@ -84,8 +84,8 @@ window.LEO = {
 
   /* Gallery: one entry per album. src = file in assets/img/gallery/ (leave "" for a placeholder). */
   gallery: [
-    { id: "solar", title: "Solar School Savar", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" }, { src: "", cap: "Caption 4" } ] },
-    { id: "convention", title: "District Convention", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" } ] },
-    { id: "training", title: "Leadership Training", photos: [ { src: "", cap: "Caption 1" }, { src: "", cap: "Caption 2" }, { src: "", cap: "Caption 3" }, { src: "", cap: "Caption 4" } ] }
+    { id: "solar", title: "", photos: [ { src: "IMG-20261113-WA0032.jpg", cap: "Caption 1" }, { src: "IMG-20261113-WA0034.jpg", cap: "Caption 2" }, { src: "IMG-20261113-WA0038.jpg", cap: "Caption 3" }, { src: "IMG-20261113-WA0060.jpg", cap: "Caption 4" } ] },
+    { id: "convention", title: "", photos: [ { src: "IMG-20261113-WA0068.jpg", cap: "Caption 1" }, { src: "IMG-20261113-WA0072.jpg", cap: "Caption 2" }, { src: "IMG-20261113-WA0075.jpg", cap: "Caption 3" } ] },
+    { id: "training", title: "", photos: [ { src: "IMG-20261113-WA0082.jpg", cap: "Caption 1" }, { src: "IMG-20261113-WA0085.jpg", cap: "Caption 2" }, { src: "IMG-20261113-WA0096.jpg", cap: "Caption 3" }, { src: "IMG-20261113-WA0097.jpg", cap: "Caption 4" } ] }
   ]
 };
