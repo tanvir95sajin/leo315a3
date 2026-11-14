@@ -101,6 +101,8 @@
     const g = (L.dg || {}).lead, dgTeam = (L.dg || {}).team || [];
     const drow = (arr, c, full) => arr.length ? `<div class="dgr">${arr.map((p, i) => person(p, i, full, c)).join("")}</div>` : "";
     $("#dgBody").innerHTML = `<div class="dgl">${drow(g ? [g] : [], "d1", true)}${drow(dgTeam.slice(0, 2), "d2", false)}${drow(dgTeam.slice(2), "d3", false)}</div>`;
+    $("#lionsLogo").innerHTML = logo("lions");
+    $("#intlBody").innerHTML = `<div class="intl">${(L.intl || []).map((p, i) => person(p, i, true, "i1")).join("")}</div>`;
     const s = L.standing || {};
     const row = (arr, t) => { arr = arr.filter(Boolean); return arr.length ? `<div class="lrow">${arr.map((p, i) => person(p, i, t < 4, "t" + t)).join("")}</div>` : ""; };
     $("#standingBody").innerHTML = `<div class="ladder">${row([s.adviser], 1)}${row([s.chair], 2)}${row([s.cochair, s.secretary], 3)}${row(s.members || [], 4)}</div>`;
