@@ -277,3 +277,14 @@ footer a:hover{color:var(--gold2)}
 .d1{max-width:340px}.d2{max-width:260px}.d3{max-width:230px}
 .d1 h3{font-size:1.9rem}.d2 h3{font-size:1.4rem}.d3 h3{font-size:1.2rem}
 @media(max-width:860px){.dgr{gap:28px 20px}.dgl{gap:36px}}
+
+/* Leo District Committee: larger President */
+.lol{display:grid;gap:44px}
+.lor{display:flex;justify-content:center;flex-wrap:wrap;gap:36px 48px}
+.lol .person{text-align:center}
+.lol .person .pic{margin:0 auto}
+.l1 .pic{width:min(250px,64vw);box-shadow:0 0 0 8px rgba(214,169,58,.18),0 20px 44px rgba(5,46,37,.22)}
+.l2 .pic{width:min(200px,42vw)}
+.l1{max-width:290px}.l2{max-width:240px}
+.l1 h3{font-size:1.6rem}.l2 h3{font-size:1.2rem}
+@media(max-width:860px){.lor{gap:28px 20px}.lol{gap:36px}}
