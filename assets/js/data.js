@@ -31,7 +31,7 @@ window.LEO = {
   ],
   clubs: [   // status: Active / Newly established / Recruiting members / Awaiting annual information update
     { name: "Leo Club of Dhaka Dhanmondi", place: "Dhaka", institution: "", status: "Active" },
-    { name: "Leo Club of Dhaka Prime", place: "Dhaka", institution: "", status: "Recruiting members" },
+    { name: "Leo Club of Dhanmondi Prime", place: "Dhaka", institution: "", status: "Recruiting members" },
     { name: "Leo Club of Manikganj", place: "Manikganj", institution: "", status: "Newly established" },
     { name: "Leo Club of Bijoy Nation", place: "Dhaka", institution: "", status: "Active" }
   ],
@@ -55,9 +55,8 @@ window.LEO = {
     },
     standing: {
       adviser:   { name: "PDG Ln. MMA Bashar, PMJF", role: "Adviser, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0022.jpg" },
-      chair:     { name: "Ln. Mizanur Rahman Khan Lytton", role: "Chairperson, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/Lytton.jpg" },
+      chair:     { name: "Ln. Sultana Parvin", role: "Member Secretary, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261112-WA0002.jpg" },
       cochair:   { name: "Ln. Shuja Shajahan", role: "Co-Chairperson, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261113-WA0028.jpg" },
-      secretary: { name: "Ln. Sultana Parvin", role: "Member Secretary, Leo Standing Committee", club: "", term: "2026-27", bio: "", contact: "", photo: "assets/img/leadership/IMG-20261112-WA0002.jpg" },
       members: [
         { name: "Ln. Md. Shahriar Mehedi Mollah", role: "Member", club: "", photo: "" },
         { name: "Ln. Md. Yousuf Ali", role: "Member", club: "", photo: "" },
